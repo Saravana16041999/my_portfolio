@@ -9,42 +9,69 @@ html {
 }
 
 body {
-    
+    background: url(/images_and_fonts/background/laptop_background.jpg);
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    background-size: 1450px 780px;
+    background-repeat: no-repeat;
+    z-index: 0;
+    background-position: fixed;
+    color: white;
 }
-.main_contanier{
+.main_container{
     display: flex;
     width: 1440px;
     height: 100px;
-    background-color: #22303c;
+    background-color:#192734 ;
     align-items: center;
     justify-content: space-between;
 }
 
-.main_contanier span {
-    font-size: 30px;
+.main_container span {
+    font-size: 35px;
     margin-left: 50px;
     margin-right: 100px;
     color: white;
     font-family: 'Dancing Script', cursive;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.522);
 }
-.main_contanier span strong {
+.main_container span strong {
     color: #1D9BF0;
     font-size: 36px;
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
 }
-.list_cont {
+.list_content {
     display: flex;
     margin-right: 30px;
+    font-family: 'Roboto', sans-serif;
 }
-.list_cont li a {
+.list_content li a {
     margin-right: 30px;
     color: white;
     text-decoration: none;
 }
-.list_cont li {
+.list_content li {
     text-decoration: none;
     list-style: none;
+}
+.main_content {
+    margin-top: 100px;
+    margin-left: 100px;
+    display: flex;
+}
+.profile-pic img {
+    width: 300px;
+    height: 330px;
+    margin-left: 23px;
+    border-radius: 300px;
+}
+.para_content {
+    width: 700px;
+    height:300px;
+    font-size: 30px;
+}
+.para_content h1 {
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
