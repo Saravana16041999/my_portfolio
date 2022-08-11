@@ -72,9 +72,15 @@ body {
     margin-top: 50px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
+    body {
+        width: auto;
+        height: auto;
+    }
    .main_container {
     display: grid;
+    width: auto;
+    height: auto;
    }
    .main_container span {
     margin-left: 150px;
