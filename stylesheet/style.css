@@ -75,10 +75,6 @@ body {
 }
 
 @media screen and (max-width: 450px){
-    body {
-        width: auto;
-        height: auto;
-    }
    .main_container {
     display: grid;
     width: auto;
@@ -97,9 +93,6 @@ body {
     .para_content {
         font-size: 15px;
         margin-bottom: 100px;
-        width: auto;
-        height: auto;
-        
     }
     .profile-pic img {
         width: 195px;
