@@ -14,15 +14,14 @@ body {
     font-family: 'Dancing Script', cursive;
     color: white;
 }
-.nav_top {
-    background-color:#192734 ;
-}
+
 .main_container{
     display: flex;
     width: 1440px;
     height: 100px;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .main_container span {
@@ -76,23 +75,29 @@ body {
 
 @media screen and (max-width: 450px){
    .main_container {
-    display: grid;
+    flex-direction: column;
     width: auto;
+    background-color:none;
     height: auto;
    }
    .main_container span {
-    margin-left: 150px;
+    margin-left: 180px;
    }
    .main_content{
     margin-right: 30px;
+    margin-left: 20px;
    }
     .list_content {
         margin-left: 150px;
+    }
+    .list_content li a {
+        margin-right: 50px;
     }
     
     .para_content {
         font-size: 15px;
         margin-bottom: 100px;
+        margin-left: -10px;
     }
     .profile-pic img {
         width: 195px;
