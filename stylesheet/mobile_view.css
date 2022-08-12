@@ -1,6 +1,15 @@
 @media screen and (max-width: 425px) {
     .nav_bar {
         flex-direction: column;
+        margin: 0px;
+        font-size: 20px;
+    }
+    .nav_bar span {
+        margin: 0px;
+    }
+
+    .link_container a {
+        margin: 5px;
     }
     
 }
