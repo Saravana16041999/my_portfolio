@@ -1,118 +1,33 @@
 * {
-   margin: 0px;
-   padding: 0px;
-   box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
-html {
-    font-size: 16px;
-
-}
-
 body {
-    background-color: #15202B;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,700&display=swap');
-    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    font-family: 'Nanum Gothic Coding', monospace;
     color: white;
+    background-color: #22303c;
 }
-
-.main_container{
+.nav_bar {
     display: flex;
-    width: 1440px;
     height: 100px;
+    background-color: lightblue;
     align-items: center;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    background-color: #15202b;
+}
+.nav_bar span {
+    font-size: 30px;
+    margin-left: 100px;
+}
+.nav_bar span strong {
+    font-size: 40px;
+    color: brown;
 }
 
-.main_container span {
-    font-size: 35px;
-    margin-left: 50px;
-    margin-right: 100px;
-    color: white;
-    font-family: 'Dancing Script', cursive;
-    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.522);
-}
-.main_container span strong {
-    color: #1D9BF0;
-    font-size: 36px;
-    font-family: 'Dancing Script', cursive;
-    font-weight: 700;
-}
-.list_content {
-    display: flex;
-    margin-right: 30px;
-    font-family: 'Roboto', sans-serif;
-}
-.list_content li a {
-    margin-right: 30px;
-    color: white;
-    text-decoration: none;
-}
-.list_content li {
+.link_container a {
+    margin-right: 50px;
     text-decoration: none;
     list-style: none;
-}
-.main_content {
-    margin-top: 100px;
-    margin-left: 100px;
-    display: flex;
-}
-.profile-pic img {
-    width: 300px;
-    height: 330px;
-    margin-left: 23px;
-    border-radius: 300px;
-}
-.para_content {
-    width: 700px;
-    height:300px;
-    font-size: 30px;
-}
-.para_content h1 {
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-
-@media screen and (max-width: 400px){
-   .main_container {
-    flex-direction: column;
-    width: auto;
-    background-color:none;
-    height: auto;
-   }
-   .main_container span {
-    margin-left: 180px;
-   }
-   .main_content{
-    
-    margin-left: 20px;
-    height: 200px;
-   }
-    .list_content {
-        margin-left: 150px;
-    }
-    .list_content li a {
-        margin-right: 50px;
-    }
-    
-    .para_content {
-        font-size: 15px;
-        margin-bottom: 100px;
-        margin-left: -10px;
-        height: auto;
-    }
-    .profile.pic {
-        width: 120px;
-        height: 130px;
-        
-        background-color: aquamarine;
-    }
-    .profile-pic img {
-        width: 120px;
-        height: 130px;
-        margin-top: 50px;
-        
-    }
-
-
+    color: white;
 }
