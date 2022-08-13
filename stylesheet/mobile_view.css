@@ -3,6 +3,7 @@
         flex-direction: column;
         margin: 0px;
         font-size: 20px;
+        width: auto;
     }
     .nav_bar span {
         margin: 0px;
@@ -12,16 +13,20 @@
         margin: 5px;
     }
     .main_content {
+        width: auto;
         font-size: 15px;
         flex-direction: column-reverse;
-        margin: 0%;
+        margin: 0px;
+        justify-content: flex-end;
+        height: auto;
     }
     .content {
-        width: 320px;
+        width: auto;
         margin-right: 0px;
         margin-left: 35px;
         margin-top: 0px;
-        height: 100px;
+        height: 150px;
+        
     }
     .name {
         font-size: 20px;
@@ -29,8 +34,8 @@
         width: 290px;
     }
     .main-img {
-        width: 320px;
-        height: 320px;
+        width: auto;   
+        height: 250px;
         display: flex;
         justify-content: center;
         margin-right: 0px;
@@ -41,10 +46,10 @@
     .profile_pic {
         width: 200px;
         height: 200px;
+        margin-top: 20px;
     }
     .skill{
-        width: 320px;
-        
+        width: auto;
         margin-left: 30px;
     }
     .skill-container{
@@ -56,8 +61,11 @@
         margin-left: 30px;
        
     }
-    .css-font {
-        
+    .css-font {       
         margin: 0px;
+    }
+    .icons{
+        margin-left: 0px;
+        width: auto;
     }
 }

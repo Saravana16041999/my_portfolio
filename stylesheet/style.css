@@ -15,7 +15,7 @@ body {
     background-color: lightblue;
     align-items: center;
     justify-content: space-around;
-    background-color: #15202b;
+    background-color: #15202bc9;
     
 }
 .nav_bar span {
@@ -91,4 +91,27 @@ body {
 .css_img {
     width: 120px;
     height: 120px;
+}
+button {
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: lightblue;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.icons {
+    margin-top: 30px;
+    width: 1000px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    background-color: #15202bd4; 
+    align-items: center;
+    
+}
+.linkedin, .gmail, .github {
+    margin-left: 8px;
+    margin-right: 50px;
 }
