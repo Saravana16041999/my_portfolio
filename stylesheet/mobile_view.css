@@ -11,5 +11,29 @@
     .link_container a {
         margin: 5px;
     }
-    
+    .main_content {
+        font-size: 12px;
+        flex-direction: column-reverse;
+        margin: 0%;
+    }
+    .content {
+        width: 320px;
+        margin: 0px;
+    }
+    .name {
+        font-size: 20px;
+        margin: 0px;
+        width: 290px;
+    }
+    .main-img {
+        width: 320px;
+        height: 320px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .profile_pic {
+        width: 200px;
+        height: 200px;
+    }
 }

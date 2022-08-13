@@ -11,6 +11,7 @@ body {
 .nav_bar {
     display: flex;
     height: 100px;
+    width: 100%;
     background-color: lightblue;
     align-items: center;
     justify-content: space-around;
@@ -25,7 +26,9 @@ body {
     font-size: 40px;
     color: brown;
 }
-
+.link_container {
+    margin-left: 100px;
+}
 .link_container a {
     margin-right: 50px;
     text-decoration: none;
