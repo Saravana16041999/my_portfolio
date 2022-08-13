@@ -12,13 +12,16 @@
         margin: 5px;
     }
     .main_content {
-        font-size: 12px;
+        font-size: 15px;
         flex-direction: column-reverse;
         margin: 0%;
     }
     .content {
         width: 320px;
-        margin: 0px;
+        margin-right: 0px;
+        margin-left: 35px;
+        margin-top: 0px;
+        height: 100px;
     }
     .name {
         font-size: 20px;
@@ -28,12 +31,33 @@
     .main-img {
         width: 320px;
         height: 320px;
-        margin: 0px;
         display: flex;
         justify-content: center;
+        margin-right: 0px;
+        margin-left: 15px;
+        margin-top: 0px;
+        
     }
     .profile_pic {
         width: 200px;
         height: 200px;
+    }
+    .skill{
+        width: 320px;
+        
+        margin-left: 30px;
+    }
+    .skill-container{
+        display: flex;
+        justify-content: center;
+    }
+    .html-font {
+        margin-right: 0px;
+        margin-left: 30px;
+       
+    }
+    .css-font {
+        
+        margin: 0px;
     }
 }

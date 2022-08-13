@@ -26,9 +26,6 @@ body {
     font-size: 40px;
     color: brown;
 }
-.link_container {
-    margin-left: 100px;
-}
 .link_container a {
     margin-right: 50px;
     text-decoration: none;
@@ -40,7 +37,7 @@ body {
     cursor: pointer;
 }
 .main_content {
-    height: 700px;
+    height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -60,11 +57,38 @@ body {
     width: 500px;
     height: 500px;   
     
-    margin-top: 50px;
+    margin-top: 30px;
 }
 .profile_pic {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border-radius: 50%;
     margin-top: 50px;
+}
+
+.skill {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.skill-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;    
+}
+.html-font{
+    margin-right: 100px;
+}
+.html_img{
+    width: 100px;
+    height: 120px;
+}
+.css-font{
+    margin-left: 100px;
+}
+.css_img {
+    width: 120px;
+    height: 120px;
 }
