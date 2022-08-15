@@ -8,6 +8,9 @@ body {
     color: white;
     background-color:#22303c;
 }
+a {
+    text-decoration: none;
+}
 .nav_bar {
     display: flex;
     height: 100px;
@@ -28,7 +31,6 @@ body {
 }
 .link_container a {
     margin-right: 50px;
-    text-decoration: none;
     list-style: none;
     color: white;
 }
@@ -92,13 +94,16 @@ body {
     width: 120px;
     height: 120px;
 }
-button {
+.content button {
     margin-top: 10px;
     margin-left: 50px;
-    background-color: lightblue;
+    background-color: #1DA1F2;
     width: 100px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-style: none;
+    border-radius: 12px;
+    color: white;
 }
 .icons {
     margin-top: 30px;
@@ -113,4 +118,117 @@ button {
 .linkedin, .gmail, .github {
     margin-left: 8px;
     margin-right: 50px;
+}
+.project_container {
+    width: auto;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.project-inside {
+    display: flex;
+}
+.project-img-container {
+    width: auto;
+    margin-left: 25px;
+    transition: all 0.3s ease;
+}
+.project-img-container:hover{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.593);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.img_project {
+    height: 200px;
+    width: 300px;
+    margin: 0px;
+}
+.button_project {
+    margin: 0%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+    width: auto;
+}
+.button_url {
+    margin-left: 0%;
+    background-color: #22303c;
+    color: white;
+    border-color: brown;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button_url a {
+    color: white;
+}
+.button_url a:hover {
+    color: black;
+}
+.button_url:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.button_live_link{
+    margin-left: 0%;
+    background-color: white;
+    border-color: brown;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.button_live_link a {
+   color: black;
+}
+.button_live_link a:hover {
+    color: white;
+}
+.button_live_link:hover {
+    background-color: lightblue;
+}
+.blog {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog_main {
+    background-color:white;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    color: black;
+}
+.blog strong {
+    margin-bottom: 10px;
+}
+.blog_content {
+    font-size: 20px;
+    margin-left: 5px;
+}
+.button_know_more button {
+    background-color: #284258;
+    border-radius: 12px;
+    border-width: 1px;
+    border-style: solid;
+    margin-top: 10px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blog_main img {
+    width: 100px;
+    height: 100px;
 }

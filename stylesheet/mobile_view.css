@@ -68,4 +68,35 @@
         margin-left: 0px;
         width: auto;
     }
+    .project_container {
+        height: auto;
+        margin: 0px;
+    }
+    .project-inside {
+        display: flex;
+        flex-direction: column;
+    }
+    .project-img-container {
+        width: auto;
+        height: auto;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    .project_container {
+        width: auto;
+        margin-top: 10px;
+    }
+    .project_container strong {
+        margin-bottom: 10px;
+    }
+    .blog {
+        width: auto;
+    }
+    .blog_main{
+        width: 300px;
+    }
+    .blog_content {
+        font-size: 15px;
+    }
+
 }
