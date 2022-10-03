@@ -51,6 +51,15 @@
     .skill{
         width: auto;
         margin-left: 30px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .js-image{
+        width:180px;
+        height: 100px;
+    }
+    .JavaScript-font{
+        margin: 0px;
     }
     .skill-container{
         display: flex;
@@ -62,7 +71,7 @@
        
     }
     .css-font {       
-        margin: 0px;
+        margin-left: 25px;
     }
     .icons{
         margin-left: 0px;
